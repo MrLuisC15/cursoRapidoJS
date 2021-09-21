@@ -3,7 +3,7 @@ console.log('JS Cargado');
 
 //Objetos
 let objeto = {
-  atributo1: 78,
+  atributo1: 77,
   nombre: 'Perico Palotes',
   parejas: ['María', 'Pedro', 'Macario'],
   metodo2: function(num) {
