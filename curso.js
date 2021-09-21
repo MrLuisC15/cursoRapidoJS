@@ -58,7 +58,7 @@ try {
 
 //Arrays
 
-let vector = [1,2,3]
+let vector = [1,2,2]
 let guarreria = [1,2,'asdad',function(){console.log('PFFF');},true]
 let matriz = {
   [1,2,3],
