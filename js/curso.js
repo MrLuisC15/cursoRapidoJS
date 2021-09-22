@@ -3,7 +3,7 @@ console.log('JS Cargado');
 
 //Objetos
 let objeto = {
-  atributo1: 77,
+  atributo1: 78,
   nombre: 'Perico Palotes',
   parejas: ['María', 'Pedro', 'Macario'],
   metodo2: function(num) {
@@ -60,8 +60,20 @@ try {
 
 let vector = [1,2,2]
 let guarreria = [1,2,'asdad',function(){console.log('PFFF');},true]
-let matriz = {
+let matriz = [
   [1,2,3],
   [4,5,6],
   [7,8,9]
+]
+console.log(matriz[1][2]);
+
+//Recorrer un Array
+
+for(let i=0; i < vector.length;i++) {
+  console.log(vector[i]);
 }
+
+for( let elemento of vector) {
+  console.log(elemento);
+}
+
