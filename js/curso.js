@@ -93,3 +93,5 @@ for(let fila of matriz2) {
     console.log(elemento);
   }
 }
+
+console.log('hola');
