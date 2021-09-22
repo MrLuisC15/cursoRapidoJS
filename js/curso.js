@@ -77,3 +77,7 @@ for( let elemento of vector) {
   console.log(elemento);
 }
 
+for( let atributo in objeto) {
+  console.log(atributo);
+}
+
