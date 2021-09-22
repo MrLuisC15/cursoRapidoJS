@@ -94,4 +94,4 @@ for(let fila of matriz2) {
   }
 }
 
-console.log('hola');
+console.log('adios');
