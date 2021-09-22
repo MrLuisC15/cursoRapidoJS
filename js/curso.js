@@ -78,6 +78,6 @@ for( let elemento of vector) {
 }
 
 for( let atributo in objeto) {
-  console.log('El atributo ' + atributo + ' vale ' + '${objeto.atributo}');
+  console.log('El atributo ' + atributo + ' vale ' + objeto[atributo]);
 }
 
