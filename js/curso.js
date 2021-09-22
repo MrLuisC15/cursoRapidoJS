@@ -88,6 +88,8 @@ let matriz2 = [
   [7, 8]
 ]
 
-for(let fila in matriz2) {
-  console.log(fila);
+for(let fila of matriz2) {
+  for(let elemento of fila) {
+    console.log(elemento);
+  }
 }
