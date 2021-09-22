@@ -81,3 +81,13 @@ for( let atributo in objeto) {
   console.log('El atributo \'' + atributo + '\' vale ' + objeto[atributo]);
 }
 
+
+let matriz2 = [
+  [1, 2, 3],
+  [4, 5, 14, 78],
+  [7, 8]
+]
+
+for(let fila in matriz2) {
+  console.log(fila);
+}
